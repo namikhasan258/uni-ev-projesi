@@ -1,21 +1,23 @@
-# 🏠 UniEv
 🏠 UniEv – Üniversite Ev Bulma ve Ev Arkadaşı Eşleştirme Platformu
 
-Kocaeli Sağlık ve Teknoloji Üniversitesi
-Yazılım Laboratuvarı II – Proje 3
-2025-2026 Bahar Dönemi
+Yazılım Laboratuvarı II – Proje 3 Kocaeli Sağlık ve Teknoloji Üniversitesi 2025-2026 Bahar Dönemi
 
 📖 Proje Hakkında
 
 UniEv, üniversite öğrencilerinin güvenli, hızlı ve kolay bir şekilde konaklama bulabilmeleri amacıyla geliştirilmiş modern bir web platformudur.
 
-Platform sayesinde kullanıcılar:
+🌟 Platform Sayesinde Kullanıcılar:
 
 🏠 Ev ilanlarını görüntüleyebilir
+
 📞 Ev sahipleriyle iletişim kurabilir
+
 🤝 Uygun ev arkadaşı bulabilir
+
 ❤️ Favori ilanlarını kaydedebilir
+
 💬 Gerçek zamanlı mesajlaşabilir
+
 🛡️ Güvenlik analizlerinden yararlanabilir
 
 Sistem, kullanıcı güvenliğini artırmak amacıyla çeşitli doğrulama, yetkilendirme ve güvenlik mekanizmaları içermektedir.
@@ -24,173 +26,244 @@ Sistem, kullanıcı güvenliğini artırmak amacıyla çeşitli doğrulama, yetk
 
 UniEv'in temel amacı öğrencilerin güvenli ve uygun konaklama seçeneklerine daha kolay ulaşmasını sağlamaktır.
 
-Hedefler
+📌 Hedefler:
+
 Güvenilir ilanları öne çıkarmak
+
 Dolandırıcılık riskini azaltmak
+
 Ev sahipleri ve öğrenciler arasındaki iletişimi kolaylaştırmak
+
 Uyumlu ev arkadaşlarını eşleştirmek
+
 Öğrenciler için güvenli bir konaklama ekosistemi oluşturmak
+
 ✨ Temel Özellikler
+
 🔐 Kimlik Doğrulama ve Güvenlik
-Kullanıcı kayıt sistemi
-JWT tabanlı kimlik doğrulama
-E-posta doğrulama
-Şifre sıfırlama
-Hesap kilitleme koruması
-Rol bazlı yetkilendirme
+
+Kullanıcı kayıt ve giriş sistemi
+
+JWT tabanlı kimlik doğrulama altyapısı
+
+E-posta doğrulama ve şifre sıfırlama mekanizması
+
+Hesap kilitleme koruması ve rol bazlı yetkilendirme
+
 Yönetici yetkilendirme sistemi
+
 👤 Kullanıcı Yönetimi
-Profil oluşturma
-Profil güncelleme
-Profil fotoğrafı yükleme
-Bütçe tercihleri
-Yaşam tarzı tercihleri
-Kullanıcı puanlama sistemi
+
+Profil oluşturma ve güncelleme
+
+Profil fotoğrafı yükleme desteği
+
+Bütçe ve yaşam tarzı tercihleri (sigara, evcil hayvan vb.)
+
+Güvenli topluluk için kullanıcı oylama/puanlama sistemi
+
 🏠 İlan Yönetimi
-İlan oluşturma
-İlan güncelleme
-İlan silme
-Fotoğraf yükleme
-Fiyat filtreleme
-Şehir filtreleme
-Detaylı ilan görüntüleme
+
+İlan oluşturma, güncelleme ve silme (CRUD)
+
+Çoklu fotoğraf yükleme desteği
+
+Fiyat ve şehir bazlı gelişmiş filtreleme
+
+Detaylı ilan görüntüleme sayfası
+
 💬 Gerçek Zamanlı Mesajlaşma
-Kullanıcılar arası mesajlaşma
-Görsel ve dosya paylaşımı
-Socket.IO desteği
-Anlık güncellemeler
+
+Socket.IO destekli kullanıcılar arası anlık sohbet
+
+Görsel ve dosya paylaşımı desteği
+
+Canlı mesaj bildirimleri ve anlık güncellemeler
+
 ❤️ Favoriler Sistemi
-Favori ilan ekleme
-Favori ilanları görüntüleme
-Favori ilanları yönetme
-🚨 Güvenlik Özellikleri
-Dolandırıcılık riski analizi
-Şüpheli ilan bildirme
-Güvenlik indeksi sistemi
-Yönetici moderasyonu
-🔔 Bildirim Sistemi
-Gerçek zamanlı bildirimler
-Sistem uyarıları
-Kullanıcı bildirimleri
-🤝 Ev Arkadaşı Eşleştirme
-Uyumluluk analizi
-Yaşam tarzı bazlı eşleştirme
-Akıllı öneri sistemi
-📊 Yönetici Paneli
-Kullanıcı yönetimi
-İlan yönetimi
-Rapor yönetimi
+
+Beğenilen ilanları favorilere ekleme
+
+Favori ilanları tek ekrandan görüntüleme ve yönetme
+
+🚨 Güvenlik Özellikleri & Bildirimler
+
+Dolandırıcılık riski analizi (FraudScore) ve güvenlik indeksi
+
+Şüpheli ilan bildirme/şikayet altyapısı
+
+Yönetici moderasyonu ve gerçek zamanlı sistem uyarıları
+
+📊 Yönetici Paneli (Admin Dashboard)
+
+Merkezi kullanıcı ve ilan yönetimi
+
+Rapor yönetimi ve şikayet inceleme paneli
+
 Sistem denetim kayıtları (Audit Logs)
+
 🛠️ Kullanılan Teknolojiler
-Backend
-Python
-FastAPI
-SQLAlchemy
-Socket.IO
-JWT Authentication
-Argon2 Password Hashing
-Frontend
-HTML5
-CSS3
-JavaScript
-Jinja2 Templates
-Veritabanı
-SQLite
-Diğer Araçlar
-Git
-GitHub
-REST API
-SMTP E-Posta Servisleri
-⚙️ Kurulum
-1️⃣ Projeyi Klonlayın
-git clone REPOSITORY_LINK
-2️⃣ Proje Klasörüne Girin
-cd UniEv
-3️⃣ Sanal Ortam Oluşturun
+
+Backend: Python, FastAPI, SQLAlchemy, Socket.IO, JWT Authentication, Argon2
+
+Frontend: HTML5, CSS3, JavaScript, Jinja2 Templates, Tailwind CSS
+
+Veritabanı: SQLite
+
+Diğer Araçlar: Git, GitHub, REST API, SMTP E-Posta Servisleri
+
+🚀 Kurulum ve Çalıştırma Adımları
+
+Projeyi Klonlayın ve Klasöre Girin:
+
+git clone [https://github.com/namikhasan258/uni-ev-projesi.git](https://github.com/namikhasan258/uni-ev-projesi.git)
+cd uni-ev-projesi
+
+
+Sanal Ortam Oluşturun ve Aktif Edin:
+
 python -m venv venv
-4️⃣ Sanal Ortamı Aktifleştirin
-Windows
+
+# Windows için:
 venv\Scripts\activate
-Linux / macOS
+
+# Linux / macOS için:
 source venv/bin/activate
-5️⃣ Bağımlılıkları Kurun
+
+
+Bağımlılıkları Kurun ve Uygulamayı Başlatın:
+
 pip install -r requirements.txt
-▶️ Uygulamayı Çalıştırma
 uvicorn main:socket_app --host 0.0.0.0 --port 8000
 
-Uygulama aşağıdaki adreste çalışacaktır:
 
-http://localhost:8000
+Uygulama tarayıcınızda http://localhost:8000 adresinde çalışacaktır.
+
+📸 Ekran Görüntüleri
+
+Giriş Sayfası
+
+Kayıt Sayfası
+
+Ana Sayfa
+
+İlanlar Sayfası
+
+İlan Detay Sayfası
+
+Ev Arkadaşı Eşleştirme
+
+Mesajlaşma Sistemi
+
+Profil Sayfası
+
+Yönetici Paneli
+
 🎥 Lansman Videosu
 
-📺 Proje Tanıtım Videosu:
+Platformun tanıtım ve lansman videosunu izlemek için aşağıdaki bağlantıya tıklayabilirsiniz:
 
-BURAYA YOUTUBE VİDEO LİNKİ EKLENECEK
+🔴 UniEv Proje Tanıtım Videosunu İzle
 
-Örnek:
+🗂 Proje Yapısı
 
-[🎬 Projeyi İzle](https://youtube.com/...)
-📁 Proje Yapısı
-UniEv
-│
-├── core/
-│   ├── auth.py
-│   └── security.py
-│
-├── routers/
-│   ├── auth.py
-│   ├── users.py
-│   ├── listings.py
-│   ├── messages.py
-│   ├── match.py
-│   ├── ratings.py
-│   ├── admin.py
-│
-├── services/
-├── sockets/
-├── templates/
-├── static/
-├── uploads/
-├── screenshots/
-├── documentation/
-├── tests/
-│
-├── database.py
-├── main.py
-├── requirements.txt
-├── .gitignore
-└── README.md
-🚀 Gelecekteki Geliştirmeler
-📱 Mobil uygulama geliştirilmesi
-🤖 Yapay zeka destekli eşleştirme sistemi
-🗺️ Harita entegrasyonu
-🎓 Üniversite doğrulama sistemi
-🌍 Çoklu dil desteği
-💳 Online ödeme sistemi
-🔒 Gelişmiş güvenlik analizleri
+UniEv/
+
+core/ (auth.py, security.py)
+
+routers/ (auth.py, users.py, listings.py, messages.py, match.py, ratings.py, admin.py)
+
+services/
+
+sockets/
+
+templates/
+
+static/
+
+uploads/
+
+screenshots/
+
+documentation/
+
+tests/
+
+database.py
+
+main.py
+
+requirements.txt
+
+.gitignore
+
+README.md
+
 🧪 Testler
 
-Projedeki testleri çalıştırmak için:
+Projedeki entegrasyon ve birim testlerini çalıştırmak için terminalde şu komutu çalıştırın:
 
 pytest
 
-Mevcut testler:
 
-Kullanıcı doğrulama testleri
-JWT güvenlik testleri
-API endpoint testleri
-Veritabanı işlemleri testleri
+Mevcut Test Senaryoları: Kullanıcı doğrulama testleri, JWT güvenlik testleri, API endpoint testleri ve veritabanı işlemleri testleri.
+
+💡 Gelecekteki Geliştirmeler
+
+📱 Mobil uygulama (Flutter/React Native) geliştirilmesi
+
+🤖 Yapay zeka destekli akıllı eşleştirme algoritması
+
+🗺️ İnteraktif harita ve lokasyon entegrasyonu
+
+🎓 Kurumsal üniversite e-postası ile doğrulama sistemi
+
+🌍 Çoklu dil desteği (Multi-language)
+
+💳 Güvenli online ödeme ve kapora sistemi
+
 👥 Proje Ekibi
-Grup Adı
 
-CodeForge Şarjör Projesi
+Grup Adı: CodeForge
 
-Öğrenci No	Ad Soyad	Görev
-230501002	Kusai Aksoy	Takım Lideri
-230502064	Hashem Salem	Veri Modeli
-230501055	Namık Hasan	UML Diyagramları
-230502053	Rama Hasanatu	Arayüz Tasarımı
-230501059	Melih Kamil Uslu	Dokümantasyon & Arayüz Tasarımı
+Proje Adı: Şarjör Projesi
+
+Öğrenci No
+
+Ad Soyad
+
+Görev
+
+230501002
+
+Kusai Aksoy
+
+Takım Lideri
+
+230502064
+
+Hashem Salem
+
+Veri Modeli
+
+230501055
+
+Namık Hasan
+
+UML Diyagramları
+
+230502053
+
+Rama Hasanatu
+
+Arayüz Tasarımı
+
+230501059
+
+Melih Kamil Uslu
+
+Dokümantasyon & Arayüz Tasarımı
+
 📄 Lisans
 
 Bu proje, Kocaeli Sağlık ve Teknoloji Üniversitesi Yazılım Laboratuvarı II dersi kapsamında eğitim ve değerlendirme amacıyla geliştirilmiştir.
