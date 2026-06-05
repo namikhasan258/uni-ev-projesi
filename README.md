@@ -139,26 +139,32 @@ uvicorn main:socket_app --host 0.0.0.0 --port 8000
 
 Uygulama tarayıcınızda http://localhost:8000 adresinde çalışacaktır.
 
-📸 Ekran Görüntüleri
+### Giriş Sayfası
+![Giriş Sayfası](screenshots/kayitsayfasi.png.png)
 
-Giriş Sayfası
+### Kayıt Sayfası
+![Kayıt Sayfası](screenshots/kayitsayfasi.png.png)
 
-Kayıt Sayfası
+### Ana Sayfa
+![Ana Sayfa](screenshots/anasayfa.png.png)
 
-Ana Sayfa
+### İlanlar Sayfası
+![İlanlar Sayfası](screenshots/ilansayfasi.png.png)
 
-İlanlar Sayfası
+### İlan Detay Sayfası
+![İlan Detay Sayfası](screenshots/ilandetaysayfasi.png.png)
 
-İlan Detay Sayfası
+### Ev Arkadaşı Eşleştirme
+![Ev Arkadaşı Eşleştirme](screenshots/evarkadaseslestirme.png.png)
 
-Ev Arkadaşı Eşleştirme
+### Mesajlaşma Sistemi
+![Mesajlaşma Sistemi](screenshots/mesajlasmasistemi.png.png)
 
-Mesajlaşma Sistemi
+### Profil Sayfası
+![Profil Sayfası](screenshots/profilsayfasi.png.png)
 
-Profil Sayfası
-
-Yönetici Paneli
-
+### Yönetici Paneli
+![Yönetici Paneli](screenshots/yoneticipaneli.png.png)
 🎥 Lansman Videosu
 
 🔴 UniEv Proje Tanıtım Videosunu İzle
