@@ -68,56 +68,36 @@ uvicorn main:socket_app --host 0.0.0.0 --port 8000
 | **Melih Kamil USLU** | 230501059 | Dokümantasyon & UI Dizayn |
 
 ---
-Klasör Yapısı
 UniEv/
-
-core/
-
-auth.py
-
-security.py
-
-routers/
-
-auth.py
-
-users.py
-
-listings.py
-
-messages.py
-
-match.py
-
-ratings.py
-
-admin.py
-
-services/
-
-sockets/
-
-templates/
-
-static/
-
-uploads/
-
-screenshots/
-
-documentation/
-
-tests/
-
-database.py
-
-main.py
-
-requirements.txt
-
-.gitignore
-
-README.md
+│
+├── core/
+│   ├── auth.py
+│   └── security.py
+│
+├── routers/
+│   ├── auth.py
+│   ├── users.py
+│   ├── listings.py
+│   ├── messages.py
+│   ├── match.py
+│   ├── ratings.py
+│   ├── admin.py
+│   └── ...
+│
+├── services/
+├── sockets/
+├── templates/
+├── static/
+├── uploads/
+├── screenshots/
+├── documentation/
+├── tests/
+│
+├── database.py
+├── main.py
+├── requirements.txt
+├── .gitignore
+└── README.md
 
 ## 📄 Lisans
 Bu proje, Kocaeli Sağlık ve Teknoloji Üniversitesi Yazılım Laboratuvarı II dersi kapsamında eğitim ve değerlendirme amacıyla geliştirilmiştir. Tüm hakları proje ekibine aittir.
