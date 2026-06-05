@@ -69,5 +69,6 @@ uvicorn main:socket_app --host 0.0.0.0 --port 8000
 
 ---
 
+
 ## 📄 Lisans
 Bu proje, Kocaeli Sağlık ve Teknoloji Üniversitesi Yazılım Laboratuvarı II dersi kapsamında eğitim ve değerlendirme amacıyla geliştirilmiştir. Tüm hakları proje ekibine aittir.
