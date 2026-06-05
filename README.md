@@ -228,41 +228,13 @@ Grup Adı: CodeForge
 
 Proje Adı: Şarjör Projesi
 
-Öğrenci No
-
-Ad Soyad
-
-Görev
-
-230501002
-
-Kusai Aksoy
-
-Takım Lideri
-
-230502064
-
-Hashem Salem
-
-Veri Modeli
-
-230501055
-
-Namık Hasan
-
-UML Diyagramları
-
-230502053
-
-Rama Hasanatu
-
-Arayüz Tasarımı
-
-230501059
-
-Melih Kamil Uslu
-
-Dokümantasyon & Arayüz Tasarımı
+| İsim | Öğrenci No | Görevi |
+| :--- | :--- | :--- |
+| **Kusai Aksoy** | 230501002 | Takım Lideri |
+| **Hashem Salem** | 230502064 | Veri Modelleme |
+| **Namık Hasan** | 230501055 | UML Diyagramları |
+| **Rama Hasanatu** | 230502053 | Kullanıcı Arayüz |
+| **Melih Kamil USLU** | 230501059 | Dokümantasyon & UI Dizayn |
 
 📄 Lisans
 
