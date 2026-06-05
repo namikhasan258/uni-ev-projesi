@@ -139,9 +139,6 @@ uvicorn main:socket_app --host 0.0.0.0 --port 8000
 
 Uygulama tarayıcınızda http://localhost:8000 adresinde çalışacaktır.
 
-### Giriş Sayfası
-![Giriş Sayfası](screenshots/kayitsayfasi.png.png)
-
 ### Kayıt Sayfası
 ![Kayıt Sayfası](screenshots/kayitsayfasi.png.png)
 
