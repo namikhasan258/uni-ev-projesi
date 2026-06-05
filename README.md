@@ -37,6 +37,7 @@ E-Posta Doğrulama
 Hesap Kilitleme Koruması
 Rol Bazlı Yetkilendirme
 Yönetici Yetkilendirme Sistemi
+
 👤 Kullanıcı Yönetimi
 Profil Oluşturma
 Profil Güncelleme
@@ -44,6 +45,7 @@ Profil Fotoğrafı Yükleme
 Bütçe Tercihleri
 Yaşam Tarzı Tercihleri
 Kullanıcı Puanlama Sistemi
+
 🏠 İlan Yönetimi
 İlan Oluşturma
 İlan Güncelleme
@@ -52,31 +54,38 @@ Fotoğraf Yükleme
 Fiyat Filtreleme
 Şehir Filtreleme
 Detaylı İlan Görüntüleme
+
 💬 Gerçek Zamanlı Mesajlaşma
 Kullanıcılar Arası Mesajlaşma
 Görsel ve Dosya Gönderimi
 Socket.IO Desteği
 Gerçek Zamanlı Güncellemeler
+
 ❤️ Favoriler
 Favori İlan Ekleme
 Favori İlanları Yönetme
+
 🚨 Güvenlik Özellikleri
 Dolandırıcılık Skoru Analizi
 Şüpheli İlan Bildirme
 Güvenlik İndeksi
 Yönetici Moderasyonu
+
 🔔 Bildirim Sistemi
 Gerçek Zamanlı Bildirimler
 Kullanıcı Uyarıları
+
 🤝 Ev Arkadaşı Eşleştirme
 Uyumluluk Analizi
 Yaşam Tarzı Bazlı Eşleştirme
 Akıllı Öneriler
+
 📊 Yönetici Paneli
 Kullanıcı Yönetimi
 İlan Yönetimi
 Rapor Yönetimi
 Denetim Kayıtları (Audit Logs)
+
 🛠 Kullanılan Teknolojiler
 Backend
 Python
@@ -97,9 +106,10 @@ Git
 GitHub
 REST API
 E-Posta Servisleri
+
 ⚙️ Kurulum Adımları
 1. Projeyi Klonlayın
-git clone https://github.com/KULLANICI_ADINIZ/UniEv.git
+
 2. Proje Klasörüne Girin
 cd UniEv
 3. Sanal Ortam Oluşturun
