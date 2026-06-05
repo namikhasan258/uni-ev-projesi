@@ -8,6 +8,64 @@ UniEv, üniversite öğrencilerinin güvenli kiralık konut bulmalarına ve kend
 Öğrencilerin barınma süreçlerinde yaşadığı zorlukları ve dolandırıcılık risklerini azaltmayı hedefleyen bu proje ilan oluşturma, yaşam tarzı ve bütçe analizine dayalı akıllı ev arkadaşıı eşleştirmesi ve gerçek zamanlı mesajlaşma gibi çözümler sunar.
 
 ---
+✨ Özellikler
+🔐 Kimlik Doğrulama ve Güvenlik
+Kullanıcı Kayıt Sistemi
+JWT Tabanlı Kimlik Doğrulama
+E-Posta Doğrulama
+Şifre Sıfırlama
+Hesap Kilitleme Koruması
+Rol Bazlı Yetkilendirme
+Yönetici Yetkilendirme Sistemi
+
+👤 Kullanıcı Yönetimi
+Profil Oluşturma
+Profil Güncelleme
+Profil Fotoğrafı Yükleme
+Bütçe Tercihleri
+Yaşam Tarzı Tercihleri
+Kullanıcı Puanlama Sistemi
+
+🏠 İlan Yönetimi
+İlan Oluşturma
+İlan Güncelleme
+İlan Silme
+Fotoğraf Yükleme
+Fiyat Filtreleme
+Şehir Filtreleme
+Detaylı İlan Görüntüleme
+
+💬 Gerçek Zamanlı Mesajlaşma
+Kullanıcılar Arası Mesajlaşma
+Görsel ve Dosya Gönderimi
+Socket.IO Desteği
+Gerçek Zamanlı Güncellemeler
+
+❤️ Favoriler
+Favori İlan Ekleme
+Favori İlanları Yönetme
+
+🚨 Güvenlik Özellikleri
+Dolandırıcılık Skoru Analizi
+Şüpheli İlan Bildirme
+Güvenlik İndeksi
+Yönetici Moderasyonu
+
+🔔 Bildirim Sistemi
+Gerçek Zamanlı Bildirimler
+Kullanıcı Uyarıları
+
+🤝 Ev Arkadaşı Eşleştirme
+Uyumluluk Analizi
+Yaşam Tarzı Bazlı Eşleştirme
+Akıllı Öneriler
+
+📊 Yönetici Paneli
+Kullanıcı Yönetimi
+İlan Yönetimi
+Rapor Yönetimi
+Denetim Kayıtları (Audit Logs)
+
 
 ## 🛠️ Kullanılan Teknolojiler ve Kütüphaneler
 
@@ -54,8 +112,31 @@ source venv/bin/activate
 pip install -r requirements.txt
 uvicorn main:socket_app --host 0.0.0.0 --port 8000
 ```
+📸 Ekran Görüntüleri
 
----
+Giriş Sayfası
+
+Kayıt Sayfası
+
+Ana Sayfa
+
+İlanlar Sayfası
+
+İlan Detay Sayfası
+
+Ev Arkadaşı Eşleştirme
+
+Mesajlaşma Sistemi
+
+Profil Sayfası
+
+Yönetici Paneli
+
+
+
+🔴🔴🔴 BURAYA LANSMAN VİDEOSU LİNKİNİ EKLEYİN 🔴🔴🔴
+
+[Projeyi İzle](VIDEO_LINKI:https://youtu.be/BJKZr4FfNJQ)
 
 ## 👥 Proje Ekibi ve Rol Dağılımı
 
@@ -66,38 +147,6 @@ uvicorn main:socket_app --host 0.0.0.0 --port 8000
 | **Namık Hasan** | 230501055 | UML Diyagramları |
 | **Rama Hasanatu** | 230502053 | Kullanıcı Arayüz |
 | **Melih Kamil USLU** | 230501059 | Dokümantasyon & UI Dizayn |
-
----
-UniEv/
-│
-├── core/
-│   ├── auth.py
-│   └── security.py
-│
-├── routers/
-│   ├── auth.py
-│   ├── users.py
-│   ├── listings.py
-│   ├── messages.py
-│   ├── match.py
-│   ├── ratings.py
-│   ├── admin.py
-│   └── ...
-│
-├── services/
-├── sockets/
-├── templates/
-├── static/
-├── uploads/
-├── screenshots/
-├── documentation/
-├── tests/
-│
-├── database.py
-├── main.py
-├── requirements.txt
-├── .gitignore
-└── README.md
 
 ## 📄 Lisans
 Bu proje, Kocaeli Sağlık ve Teknoloji Üniversitesi Yazılım Laboratuvarı II dersi kapsamında eğitim ve değerlendirme amacıyla geliştirilmiştir. Tüm hakları proje ekibine aittir.
