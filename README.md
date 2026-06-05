@@ -1,13 +1,33 @@
-🏠 UniEv – Üniversite Konaklama ve Ev Arkadaşı Eşleştirme Platformu
+# 🏠 UniEv
+Üniversite Ev Bulma ve Ev Arkadaşı Eşleştirme Platformu
+Kocaeli Sağlık ve Teknoloji Üniversitesi
+Yazılım Laboratuvarı II – Proje 3
+2025-2026 Bahar Dönemi
 
-**Yazılım Laboratuvarı II Projesi** **Kocaeli Sağlık ve Teknoloji Üniversitesi** **2025–2026 Bahar Dönemi** ---
+📖 Proje Açıklaması
+UniEv, üniversite öğrencilerinin güvenli ve hızlı bir şekilde konaklama bulabilmesi amacıyla geliştirilmiş modern bir web platformudur.
 
-## 📖 Proje Açıklaması ve Amacı
-UniEv, üniversite öğrencilerinin güvenli kiralık konut bulmalarına ve kendilerine en uygun ev arkadaşı seçmelerine yardımcı olmak için tasarlanmış tam donanımlı (full-stack) bir web platformudur. 
+Platform sayesinde öğrenciler:
 
-Öğrencilerin barınma süreçlerinde yaşadığı zorlukları ve dolandırıcılık risklerini azaltmayı hedefleyen bu proje ilan oluşturma, yaşam tarzı ve bütçe analizine dayalı akıllı ev arkadaşıı eşleştirmesi ve gerçek zamanlı mesajlaşma gibi çözümler sunar.
+Ev ilanlarını görüntüleyebilir,
+Ev sahipleriyle iletişim kurabilir,
+Ev arkadaşı bulabilir,
+Favori ilanlarını kaydedebilir,
+Gerçek zamanlı mesajlaşabilir,
+Güvenlik analizlerinden yararlanabilir.
+Sistem aynı zamanda kullanıcı güvenliğini artırmak amacıyla çeşitli doğrulama ve güvenlik mekanizmaları içermektedir.
 
----
+🎯 Projenin Amacı
+Öğrencilerin güvenli, hızlı ve kolay şekilde konaklama bulabilmesini sağlamak.
+
+Ayrıca:
+
+Güvenli ilanların öne çıkarılması,
+Dolandırıcılık riskinin azaltılması,
+Ev sahibi ve öğrenciler arasındaki iletişimin kolaylaştırılması,
+Uyumlu ev arkadaşlarının eşleştirilmesi
+amaçlanmıştır.
+
 ✨ Özellikler
 🔐 Kimlik Doğrulama ve Güvenlik
 Kullanıcı Kayıt Sistemi
@@ -17,7 +37,6 @@ E-Posta Doğrulama
 Hesap Kilitleme Koruması
 Rol Bazlı Yetkilendirme
 Yönetici Yetkilendirme Sistemi
-
 👤 Kullanıcı Yönetimi
 Profil Oluşturma
 Profil Güncelleme
@@ -25,7 +44,6 @@ Profil Fotoğrafı Yükleme
 Bütçe Tercihleri
 Yaşam Tarzı Tercihleri
 Kullanıcı Puanlama Sistemi
-
 🏠 İlan Yönetimi
 İlan Oluşturma
 İlan Güncelleme
@@ -34,119 +52,128 @@ Fotoğraf Yükleme
 Fiyat Filtreleme
 Şehir Filtreleme
 Detaylı İlan Görüntüleme
-
 💬 Gerçek Zamanlı Mesajlaşma
 Kullanıcılar Arası Mesajlaşma
 Görsel ve Dosya Gönderimi
 Socket.IO Desteği
 Gerçek Zamanlı Güncellemeler
-
 ❤️ Favoriler
 Favori İlan Ekleme
 Favori İlanları Yönetme
-
 🚨 Güvenlik Özellikleri
 Dolandırıcılık Skoru Analizi
 Şüpheli İlan Bildirme
 Güvenlik İndeksi
 Yönetici Moderasyonu
-
 🔔 Bildirim Sistemi
 Gerçek Zamanlı Bildirimler
 Kullanıcı Uyarıları
-
 🤝 Ev Arkadaşı Eşleştirme
 Uyumluluk Analizi
 Yaşam Tarzı Bazlı Eşleştirme
 Akıllı Öneriler
-
 📊 Yönetici Paneli
 Kullanıcı Yönetimi
 İlan Yönetimi
 Rapor Yönetimi
 Denetim Kayıtları (Audit Logs)
-
-
-## 🛠️ Kullanılan Teknolojiler ve Kütüphaneler
-
-### Arka Plan (Backend) & Veri Tabanı
-* **Python 3.12** – Ana programlama dili
-* **FastAPI** – Yüksek performanslı API altyapısı
-* **SQLAlchemy ORM** – Veri tabanı ilişkilendirme modeli
-* **SQLite** – Hafif ve hızlı veri tabanı yönetimi
-* **Socket.IO** – Anlık ve gerçek zamanlı iletişim altyapısı
-
-### Ön Yüz (Frontend)
-* **HTML5 & CSS3** – Temel web yapısı
-* **Tailwind CSS** Modern ve duyarlı (responsive) arayüz tasarımı
-* **Jinja2 Templates** – Dinamik sayfa motoru
-
-### Güvenlik & Ek Kütüphaneler
-* **Google Maps API** – Konum ve harita servisleri
-* **python-dotenv** – Çevresel değişken yönetimi
-* **aiosmtplib** – E-posta bildirim servisleri
-* **cuid2** – Güvenli ve benzersiz kimlik (ID) üretimi
-
----
-
-## 🚀 Kurulum ve Çalıştırma Adımları
-
-1. **Projeyi Bilgisayarınıza İndirin:**
-```bash
-git clone https://github.com/namikhasan258/uni-ev-projesi.git
-```
-
-2. **Sanal Ortam Oluşturun ve Aktif Edin:**
-```bash
+🛠 Kullanılan Teknolojiler
+Backend
+Python
+FastAPI
+SQLAlchemy
+Socket.IO
+JWT Authentication
+Argon2 Password Hashing
+Frontend
+HTML5
+CSS3
+JavaScript
+Jinja2 Templates
+Veritabanı
+SQLite
+Diğer Araçlar
+Git
+GitHub
+REST API
+E-Posta Servisleri
+⚙️ Kurulum Adımları
+1. Projeyi Klonlayın
+git clone https://github.com/KULLANICI_ADINIZ/UniEv.git
+2. Proje Klasörüne Girin
+cd UniEv
+3. Sanal Ortam Oluşturun
 python -m venv venv
-
-# Windows için:
+4. Sanal Ortamı Aktifleştirin
+Windows
 venv\Scripts\activate
-
-# Linux / macOS için:
+Linux / MacOS
 source venv/bin/activate
-```
-
-3. **Gerekli Kütüphaneleri Yükleyin ve Çalıştırın:**
-```bash
+5. Bağımlılıkları Kurun
 pip install -r requirements.txt
+▶️ Projeyi Çalıştırma
 uvicorn main:socket_app --host 0.0.0.0 --port 8000
-```
-📸 Ekran Görüntüleri
+Uygulama:
 
-Giriş Sayfası
+http://localhost:8000
+adresinde çalışacaktır.
 
-Kayıt Sayfası
-
-Ana Sayfa
-
-İlanlar Sayfası
-
-İlan Detay Sayfası
-
-Ev Arkadaşı Eşleştirme
-
-Mesajlaşma Sistemi
-
-Profil Sayfası
-
-Yönetici Paneli
-
-
-
+🎥 Lansman Videosu
 🔴🔴🔴 BURAYA LANSMAN VİDEOSU LİNKİNİ EKLEYİN 🔴🔴🔴
 
-[Projeyi İzle](:https://youtu.be/BJKZr4FfNJQ)
+[Projeyi İzle](VIDEO_LINKI)
+🗂 Klasör Yapısı
+UniEv/
+│
+├── core/
+│   ├── auth.py
+│   └── security.py
+│
+├── routers/
+│   ├── auth.py
+│   ├── users.py
+│   ├── listings.py
+│   ├── messages.py
+│   ├── match.py
+│   ├── ratings.py
+│   ├── admin.py
+│   └── ...
+│
+├── services/
+├── sockets/
+├── templates/
+├── static/
+├── uploads/
+├── screenshots/
+├── documentation/
+├── tests/
+│
+├── database.py
+├── main.py
+├── requirements.txt
+├── .gitignore
+└── README.md
+🔄 Geliştirme Önerileri
+Mobil uygulama geliştirilmesi
+Yapay zeka destekli eşleştirme sistemi
+Harita entegrasyonu
+Üniversite doğrulama sistemi
+Çoklu dil desteği
+Online ödeme sistemi
+Gelişmiş güvenlik analizleri
+🧪 Testler
+pytest
+🔴 Test dosyalarınız varsa burada açıklayın.
 
-## 👥 Proje Ekibi ve Rol Dağılımı
+👥 Proje Ekibi
+Grup Adı
+CodeForge Şarjör Projesi
+Öğrenci No	Ad Soyad	Rol
+230501002	Kusai Aksoy	Takım Lideri
+230502064	Hashem Salem	Veri Modeli
+230501055	Namik Hasan	UML Diyagramları
+230502053	Rama Hasanatu	Arayüz Tasarımı
+230501059	Melih Kamil Uslu	Dokümantasyon & Arayüz Tasarımı
 
-| İsim | Öğrenci No | Görevi |
-| :--- | :--- | :--- |
-| **Kusai Aksoy** | 230501002 | Takım Lideri |
-| **Hashem Salem** | 230502064 | Veri Modelleme |
-| **Namık Hasan** | 230501055 | UML Diyagramları |
-| **Rama Hasanatu** | 230502053 | Kullanıcı Arayüz |
-| **Melih Kamil USLU** | 230501059 | Dokümantasyon & UI Dizayn |
-
-## 📄 Lisans
+📄 Lisans
 Bu proje, Kocaeli Sağlık ve Teknoloji Üniversitesi Yazılım Laboratuvarı II dersi kapsamında eğitim ve değerlendirme amacıyla geliştirilmiştir. Tüm hakları proje ekibine aittir.
