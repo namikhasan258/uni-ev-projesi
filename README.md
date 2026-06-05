@@ -68,42 +68,6 @@ uvicorn main:socket_app --host 0.0.0.0 --port 8000
 | **Melih Kamil USLU** | 230501059 | Dokümantasyon & UI Dizayn |
 
 ---
-
-
-
-📸 Ekran Görüntüleri
-Ana Sayfa
-image
-![Ana Sayfa](screenshots/homepage.png)
-Giriş Sayfası
-image
-![Giriş](screenshots/login.png)
-Kayıt Sayfası
-image
-![Kayıt](screenshots/register.png)
-İlanlar Sayfası
-image
-![İlanlar](screenshots/listings.png)
-İlan Detay Sayfası
-image
-![İlan Detayı](screenshots/listing-detail.png)
-Profil Sayfası
-image
-![Profil](screenshots/profile.png)
-Mesajlaşma Sistemi
-image
-![Mesajlaşma](screenshots/messages.png)
-Ev Arkadaşı Eşleştirme
-image
-![Eşleştirme](screenshots/match.png)
-Yönetici Paneli
-image
-![Admin](screenshots/admin.png)
-🎥 Lansman Videosu
-🔴🔴🔴 BURAYA LANSMAN VİDEOSU LİNKİNİ EKLEYİN 🔴🔴🔴
-
-[Projeyi İzle](VIDEO_LINKI:https://youtu.be/BJKZr4FfNJQ)
-🗂 Klasör Yapısı
 UniEv/
 │
 ├── core/
