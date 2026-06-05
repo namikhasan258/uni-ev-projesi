@@ -136,7 +136,7 @@ Yönetici Paneli
 
 🔴🔴🔴 BURAYA LANSMAN VİDEOSU LİNKİNİ EKLEYİN 🔴🔴🔴
 
-[Projeyi İzle](VIDEO_LINKI:https://youtu.be/BJKZr4FfNJQ)
+[Projeyi İzle](:https://youtu.be/BJKZr4FfNJQ)
 
 ## 👥 Proje Ekibi ve Rol Dağılımı
 
