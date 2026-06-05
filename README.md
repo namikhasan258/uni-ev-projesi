@@ -161,9 +161,8 @@ Yönetici Paneli
 
 🎥 Lansman Videosu
 
-Platformun tanıtım ve lansman videosunu izlemek için aşağıdaki bağlantıya tıklayabilirsiniz:
-
 🔴 UniEv Proje Tanıtım Videosunu İzle
+https://youtu.be/BJKZr4FfNJQ
 
 🗂 Proje Yapısı
 
