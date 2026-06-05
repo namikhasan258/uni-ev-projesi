@@ -35,8 +35,7 @@ UniEv, üniversite öğrencilerinin güvenli kiralık konut bulmalarına ve kend
 
 1. **Projeyi Bilgisayarınıza İndirin:**
 ```bash
-git clone https://github.com/SoDiablo/uniev.git
-cd uniev
+git clone https://github.com/namikhasan258/uni-ev-projesi.git
 ```
 
 2. **Sanal Ortam Oluşturun ve Aktif Edin:**
